@@ -12,13 +12,13 @@ const SongsToStations = function (songsArray) {
     return genres;
 };
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state, ownProps) => {
   return {
     stations: SongsToStations(state.songs)
   };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = (dispatch, ownProps) => {
   return {};
 };
 
