@@ -22,4 +22,6 @@ const mapDispatchToProps = (dispatch, ownProps) => {
   return {};
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Stations);
+const connected = connect(mapStateToProps, mapDispatchToProps)(Stations);
+
+export default connected;

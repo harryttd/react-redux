@@ -16,7 +16,7 @@ export default function (props) {
   console.log(props);
   return (
     <div>
-      <h3>{ DUMMY_GENRE_NAME } Station</h3>
+      <h3>{ props.params.genreName } Station</h3>
       <Songs
         songs={DUMMY_SONGS}
         currentSong={DUMMY_CURRENT_SONG}
