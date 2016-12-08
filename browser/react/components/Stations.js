@@ -1,12 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-// const DUMMY_STATIONS_DATA = [
-//   { name: '90s Hip Hop' },
-//   { name: 'Death Metal' },
-//   { name: 'Classical' }
-// ];
-
 export default function Stations(props) {
   return (
     <div>
