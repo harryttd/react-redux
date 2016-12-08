@@ -9,7 +9,7 @@ export default function (props) {
         songs={props.songs}
         currentSong={props.currentSong}
         isPlaying={props.isPlaying}
-        toggleOne={props.toggle}
+        toggleOne={props.toggleOne}
       />
     </div>
   );
